@@ -1,1 +1,87 @@
-heloo my name is okta
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKTAVYAN</title>
+</head>
+<body>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        background-color: black;
+    }
+    .bandage {
+        background-image: url('img/20241024_212114_0000.png');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .centered-text {
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 3em;
+        position: absolute;
+        bottom: -25px;
+        right: 300px;
+        text-align: center;
+    }
+    .centered-text .title{
+        position: relative;
+        bottom: 50px;
+        right: 150px;
+    }
+    .centered-text .ketik{
+        position: relative;
+        bottom: 170px;
+        left: 65px;
+    }
+    .centered-text p{
+        font-size: 20px;
+        color: rgb(153, 153, 153);
+        position: relative;
+        bottom: 230px;
+        width: 500px;
+        left: 20px;
+        text-align: start;
+    }
+    .centered-text  .butn{
+        color: wheat;
+    }
+    .transisi{
+        position: relative;
+        bottom: 1100px;
+    }
+</style>
+<div class="bandage">
+</div>
+<div class="transisi">
+    <img src="img/20241024_212157_0000.png" alt="">
+</div>
+<div class="centered-text">
+    <h3>helo, i'm Okta 👋</h3>
+    <span class="title"><h3>I Built</h3></span>
+    <div class="ketik">
+        <h3> <span id="typed" class="typed"></span></h3>
+    </div>
+    <p>ordinary men who like to learn something new and technology. hello i oktavyan irfan maulana</p>
+    <!-- <p class="butn"><ion-icon name="logo-instagram"></ion-icon></p> -->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    new Typed('#typed',{
+  strings : ['Website','Software','Robotic','IoT','Design'],
+  typeSpeed : 100,
+  delaySpeed : 100,
+  loop : true
+});
+</script>
+</body>
+</html>
